@@ -123,6 +123,7 @@ BOARD_SEPOLICY_UNION += \
        device.te \
        domain.te \
        file.te \
+       healthd.te \
        hostapd.te \
        irsc_util.te \
        mediaserver.te \
