@@ -33,6 +33,7 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := code_blue_hammerhead-l_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := 4.9
 ENABLE_GRAPHITE := true
 
 # Global -03 optimizations flag
