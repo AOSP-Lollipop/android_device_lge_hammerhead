@@ -35,6 +35,12 @@ TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 TARGET_KERNEL_CONFIG := code_blue_hammerhead-l_defconfig
 ENABLE_GRAPHITE := true
 
+# Global -03 optimizations flag
+USE_O3_OPTIMIZATIONS := true
+
+# Use 4.8 for host
+USE_HOST_4.8 := true
+
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
